@@ -1,23 +1,23 @@
-# Driving License Registration System
-A console-based student management system using Java, JDBC, PostgreSQL, file I/O, and Maven.
+🚗 Driving License Registration System
+A console-based application developed using Java, JDBC, PostgreSQL, and Maven, designed to register applicant details for driving licenses and store them securely in a database.
 
+🧰 Technologies Used
+Core Java – For application logic and object-oriented programming concepts.
 
-The Driving License Registration System is a console based application used for the register the aplicants detail for the driving license and store the all data in the database.
+JDBC (Java Database Connectivity) – For seamless interaction with the PostgreSQL database.
 
-# Technologies Used
-* Core Java: For application logic and OOP concepts.
-* JDBC (Java Database Connectivity): For connecting and interacting with the PostgreSQL database.
-* PostgreSQL: For storing student data
-* Maven: For managing project dependencies.
+PostgreSQL – As the backend database to store applicant data.
 
-# Dependencies
+Maven – For efficient dependency and project management.
 
-The project required  dependencies are in pom.xml.
+File I/O – For handling text-based input/output operations when needed.
 
-# Project Structure
+📦 Project Structure
+css
+Copy
+Edit
 drivinglicense/
 │
-├── pom.xml
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -29,27 +29,45 @@ drivinglicense/
 │   ├── test/
 │   │   ├── java/
 │   │   └── resources/
-│
-├── target/                
-├── Maven Dependencies/
-└── JRE System Library/
+├── pom.xml
+⚙️ Database Setup
+Run the following SQL query to create the necessary table:
 
+sql
+Copy
+Edit
+CREATE TABLE IF NOT EXISTS applicants (
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    address VARCHAR(100),
+    vehical VARCHAR(100),
+    date VARCHAR(100)
+);
+✅ Make sure your PostgreSQL server is running and the database is configured correctly.
 
+✨ Features
+📥 Register applicant data for a new driving license.
 
-# database setup/Queries
+✏️ Update or modify existing details.
 
-   "CREATE TABLE IF NOT EXISTS " + tableName + " ("
-    + "name VARCHAR(100) NOT NULL, "+
-    +  "age INT NOT NULL, "
-    + "address VARCHAR(100), "
-    + "vehical VARCHAR(100), "
-    + "date VARCHAR(100))";
+👁️ View all stored applicant records.
 
-# features
-* register the all data.
-* Update and chage data is possible.
-* view all deatails.
+🗄️ Data is stored persistently using PostgreSQL.
 
-@ Created by:
-1. Abdulraheman Mahamad Sayyad.
-2. Amankhan Khalil Pathan.
+📄 Dependencies
+All required dependencies (like PostgreSQL JDBC driver) are managed via Maven and declared in the pom.xml file.
+
+Example:
+
+xml
+Copy
+Edit
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.7.2</version>
+</dependency>
+👨‍💻 Created By
+Abdulraheman Mahamad Sayyad
+
+Amankhan Khalil Pathan
