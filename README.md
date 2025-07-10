@@ -51,4 +51,4 @@ All required dependencies (like PostgreSQL JDBC driver) are managed via Maven an
     <version>42.7.2</version>
 </dependency>
 # output
-![Alt text]("C:\Users\abdul\OneDrive\Pictures\Screenshots\0utput.png")
+![Screenshot](https://github.com/sayyad12345/mavenprojects/blob/main/Screenshot%202025-07-10%20153919.png)
