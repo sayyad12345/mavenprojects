@@ -12,10 +12,15 @@ A console-based application developed using Java, JDBC, PostgreSQL, and Maven, d
 # ⚙️ Database Setup
 
 CREATE TABLE IF NOT EXISTS applicants (
+
     name VARCHAR(100) NOT NULL,
+    
     age INT NOT NULL,
+    
     address VARCHAR(100),
+    
     vehical VARCHAR(100),
+    
     date VARCHAR(100)
 );
 
