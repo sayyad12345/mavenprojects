@@ -40,5 +40,5 @@ All required dependencies (like PostgreSQL JDBC driver) are managed via Maven an
 # 👨‍💻 other information:
 Created by:
 
-1.Abdulraheman Mahamad Sayyad
-2.Amankhan Khalil Pathan
+1).Abdulraheman Mahamad Sayyad
+2).Amankhan Khalil Pathan
