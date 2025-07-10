@@ -18,6 +18,8 @@ CREATE TABLE IF NOT EXISTS applicants (
     vehical VARCHAR(100),
     date VARCHAR(100)
 );
+
+
 ✅ Make sure your PostgreSQL server is running and the database is configured correctly.
 
 # ✨ Features
@@ -41,4 +43,5 @@ All required dependencies (like PostgreSQL JDBC driver) are managed via Maven an
 Created by:
 
 1).Abdulraheman Mahamad Sayyad
+
 2).Amankhan Khalil Pathan
