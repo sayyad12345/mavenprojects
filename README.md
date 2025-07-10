@@ -1,3 +1,10 @@
+# Group member:
+
+1).Abdulraheman Mahamad Sayyad
+
+2).Amankhan Khalil Pathan
+
+
 # 🚗 Driving License Registration System
 A console-based application developed using Java, JDBC, PostgreSQL, and Maven, designed to register applicant details for driving licenses and store them securely in a database.
 
@@ -43,10 +50,5 @@ All required dependencies (like PostgreSQL JDBC driver) are managed via Maven an
     <artifactId>postgresql</artifactId>
     <version>42.7.2</version>
 </dependency>
-
-# 👨‍💻 other information:
-Created by:
-
-1).Abdulraheman Mahamad Sayyad
-
-2).Amankhan Khalil Pathan
+# output
+![Alt text]("C:\Users\abdul\OneDrive\Pictures\Screenshots\0utput.png")
