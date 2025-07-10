@@ -15,6 +15,10 @@ A console-based application developed using Java, JDBC, PostgreSQL, and Maven, d
 * Maven – For efficient dependency and project management.
 * File I/O – For handling text-based input/output operations when needed.
 
+  # Structure:
+  ![Screenshot](https://github.com/sayyad12345/mavenprojects/blob/main/structure.png)
+  
+
 
 # ⚙️ Database Setup
 
