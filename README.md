@@ -31,13 +31,14 @@ CREATE TABLE IF NOT EXISTS applicants (
 
 # 📄 Dependencies
 All required dependencies (like PostgreSQL JDBC driver) are managed via Maven and declared in the pom.xml file.
-
-Example:
 <dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
     <version>42.7.2</version>
 </dependency>
-#👨‍💻 Created By
+
+# 👨‍💻 other information:
+Created by:
+
 1.Abdulraheman Mahamad Sayyad
 2.Amankhan Khalil Pathan
